@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>藥品下單系統</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    input[type=number] { width: 60px; }
+    button { padding: 10px 20px; font-size: 16px; }
+    #orderSummary { margin-top: 20px; background: #f9f9f9; padding: 15px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+
+  <h2>💊 簡易藥品下單系統</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>藥品代碼</th>
+        <th>品名</th>
+        <th>規格</th>
+        <th>單價</th>
+        <th>供應狀態</th>
+        <th>數量</th>
+      </tr>
+    </thead>
+    <tbody id="productTableBody"></tbody>
+  </table>
+
+  <button onclick="placeOrder()">下單</button>
+
+  <div id="orderSummary"></div>
+
+  <script>
+    const products = [
+      { code: "AC39851100", name: "肌鬆膠囊 (2025/11到期)", spec: "1000顆/罐", price: 880, status: "供貨中" },
+      { code: "BC23177100", name: "希樂葆200mg", spec: "28顆/盒", price: 106, status: "供貨中" },
+      { code: "BC23711100", name: "可迅4mg", spec: "28錠/盒", price: 188, status: "供貨中" },
+      { code: "BC23162100", name: "必康平錠40mg", spec: "30顆/盒", price: 152, status: "供貨中" },
+      { code: "BC23161100", name: "必康平80mg", spec: "30顆/盒", price: 220, status: "供貨中" },
+      { code: "BC25446100", name: "倍必康平80/5mg", spec: "28顆/盒", price: 192, status: "供貨中" },
+      { code: "BC27440100", name: "泰迷平80mg", spec: "30顆/盒", price: 195, status: "供貨中" },
+      { code: "BA24469100", name: "貝樂克0.5mg", spec: "30顆/盒", price: 2290, status: "供貨中" },
+      { code: "BC23293100", name: "利壓10mg", spec: "28顆/盒", price: 117, status: "供貨中" },
+      { code: "BC23398100", name: "欣流咀嚼錠4mg", spec: "28顆/盒", price: 210, status: "供貨中" }
+    ];
+
+    const tableBody = document.getElementById("productTableBody");
+
+    products.forEach((p, i) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${p.code}</td>
+        <td>${p.name}</td>
+        <td>${p.spec}</td>
+        <td>$${p.price}</td>
+        <td>${p.status}</td>
+        <td><input type="number" id="qty${i}" min="0" value="0"></td>
+      `;
+      tableBody.appendChild(row);
+    });
+
+    function placeOrder() {
+      let summary = "<h3>🧾 訂單明細</h3><ul>";
+      let total = 0;
+      products.forEach((p, i) => {
+        const qty = parseInt(document.getElementById(`qty${i}`).value);
+        if (qty > 0) {
+          const subtotal = qty * p.price;
+          total += subtotal;
+          summary += `<li>${p.name} (${p.spec}) x ${qty} = $${subtotal}</li>`;
+        }
+      });
+      summary += "</ul>";
+      summary += `<strong>總金額：$${total}</strong>`;
+      document.getElementById("orderSummary").innerHTML = total > 0 ? summary : "<p>請選擇商品數量！</p>";
+    }
+  </script>
+
+</body>
+</html>
