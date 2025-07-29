@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登入後台</title>
+  <style>
+    body { font-family: sans-serif; max-width: 400px; margin: auto; padding: 50px 20px; }
+    input, button { width: 100%; padding: 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+  <h2>🔐 後台登入</h2>
+
+  <input type="text" id="account" placeholder="帳號">
+  <input type="password" id="password" placeholder="密碼">
+  <button onclick="login()">登入</button>
+
+  <p id="msg" style="color: red;"></p>
+
+  <script>
+    const validHash = "11ec8bba1e7a3f4275b783633b029475be5bdceb7c74f9d79bc76cfbc063d311";
+
+    async function sha256(text) {
+      const msgUint8 = new TextEncoder().encode(text);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function login() {
+      const acc = document.getElementById("account").value.trim();
+      const pwd = document.getElementById("password").value;
+      const hash = await sha256(acc + pwd);
+
+      if (hash === validHash) {
+        sessionStorage.setItem("adminLoggedIn", "true");
+        window.location.href = "admin.html";
+      } else {
+        document.getElementById("msg").innerText = "帳號或密碼錯誤";
+      }
+    }
+  </script>
+
+</body>
+</html>
