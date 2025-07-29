@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>訂單計算系統(輸入數量>點擊下單>將訂單明細貼給小編)</title>
+  <title>訂單計算系統</title>
   <style>
     body { font-family: 'Microsoft JhengHei', sans-serif; max-width: 1000px; margin: auto; padding: 20px; }
     table { width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 20px; }
@@ -24,7 +24,7 @@
 </head>
 <body>
 
-  <h1>💊 藥品下單系統</h1>
+  <h1>💊 訂單計算系統 (</h1>
   <p>混搭(含冷品)3000出貨、下收<br>正常出貨 - 下單日+1日到貨 ,若需備貨約一週左右</p>
 
   <h2>一般藥品</h2>
@@ -96,7 +96,7 @@
     <tbody id="coldTableBody"></tbody>
   </table>
 
-  <button onclick="placeOrder()">下單</button>
+  <button onclick="placeOrder()">計算總金額</button>
   <div id="orderSummary"></div>
   <button id="copyBtn" onclick="copyOrder()">複製訂單明細</button>
 
