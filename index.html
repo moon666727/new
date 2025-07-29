@@ -142,7 +142,7 @@
     function addLine(p, qty) {
       const subtotal = qty * p.price;
       total += subtotal;
-      summary += `${p.medname} x${qty}\n單價：${p.price}\n`;
+      summary += `${p.medname} x${qty}\n單價：${p.price}\n\n`;
     }
 
     data.products.forEach((p, i) => {
