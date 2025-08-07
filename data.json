@@ -309,13 +309,6 @@
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC232651E7",
-      "medname": "吸必擴粉狀吸入劑(綠)",
-      "spec": "120dose/盒",
-      "price": 750,
-      "stock": "供貨中"
-    },
-    {
       "nhicode": "BC26735443",
       "medname": "適倍樂舒沛噴吸入劑(綠)",
       "spec": "30dose/盒",
@@ -446,7 +439,7 @@
       "medname": "潤娃184/22",
       "spec": "30dose/盒",
       "price": 1170,
-      "stock": "缺貨中"
+      "stock": "供貨中"
     },
     {
       "nhicode": "BC26318143",
@@ -581,13 +574,6 @@
       "medname": "犀利士20mg",
       "spec": "4錠/盒",
       "price": 1120,
-      "stock": "缺貨中"
-    },
-    {
-      "nhicode": "無健保給付",
-      "medname": "犀利士5mg",
-      "spec": "28顆/盒",
-      "price": 2120,
       "stock": "供貨中"
     },
     {
@@ -609,13 +595,6 @@
       "medname": "悅己",
       "spec": "21顆",
       "price": 455,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "無健保給付",
-      "medname": "美適儂",
-      "spec": "21顆",
-      "price": 200,
       "stock": "供貨中"
     },
     {
@@ -667,7 +646,7 @@
       "medname": "愛胰達",
       "spec": "5支/盒",
       "price": 675,
-      "stock": "缺貨中"
+      "stock": "供貨中\n"
     },
     {
       "nhicode": "KC00810266",
