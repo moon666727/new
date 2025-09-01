@@ -492,10 +492,31 @@
     },
     {
       "nhicode": "AC24132100",
-      "medname": "安蒙西林膠囊500mg",
+      "medname": "Amoxicillin 500mg",
       "spec": "1000顆/瓶",
       "price": 1500,
       "stock": "供貨中"
+    },
+    {
+      "nhicode": "BC26133100",
+      "medname": "艾必克凝5毫克",
+      "spec": "56顆/盒",
+      "price": 1460,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "BC26700100",
+      "medname": "耐比洛5mg",
+      "spec": "28顆/盒",
+      "price": 90,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "AC296301G0",
+      "medname": "彌可保500ug",
+      "spec": "1000顆/盒",
+      "price": 1750,
+      "stock": ""
     }
   ],
   "specialProducts": [
