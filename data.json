@@ -694,7 +694,7 @@
       "nhicode": "無健保給付",
       "medname": "猛健樂5mg",
       "spec": "一盒一支",
-      "price": 8200,
+      "price": ,
       "stock": "缺貨"
     },
     {
@@ -708,14 +708,14 @@
       "nhicode": "無健保給付",
       "medname": "猛健樂10mg",
       "spec": "一盒一支",
-      "price": 12500,
+      "price": ,
       "stock": "缺貨"
     },
     {
       "nhicode": "無健保給付",
       "medname": "猛健樂12.5mg",
       "spec": "一盒一支",
-      "price": 16500,
+      "price": ,
       "stock": "缺貨"
     },
     {
