@@ -234,7 +234,7 @@
     {
       "nhicode": "【035】BC27440100",
       "medname": "泰迷平80mg",
-      "spec": "\"\t30顆/盒\"",
+      "spec": "30顆/盒",
       "price": 190,
       "stock": "供貨中"
     },
@@ -248,7 +248,7 @@
     {
       "nhicode": "【037】AC19982100",
       "medname": "健喬 Amoxicillin500mg",
-      "spec": "\"\t1000顆/瓶\"",
+      "spec": "1000顆/瓶",
       "price": 1695,
       "stock": "供貨中"
     },
@@ -633,7 +633,7 @@
     {
       "nhicode": "【109】BC21571100",
       "medname": "脈優5mg",
-      "spec": "\"28顆/盒\t\"",
+      "spec": "28顆/盒",
       "price": 74,
       "stock": "供貨中"
     },
