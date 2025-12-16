@@ -1,514 +1,661 @@
 {
   "products": [
     {
-      "nhicode": "BC23177100",
+      "nhicode": "【000】AA58648100",
+      "medname": "力脂替2mg",
+      "spec": "28顆/盒",
+      "price": 180,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【001】AC42660100",
+      "medname": "必百欣625mg",
+      "spec": "120顆/盒",
+      "price": 790,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【002】BC248774FK",
+      "medname": "艾敏釋鼻用噴液",
+      "spec": "單支/盒",
+      "price": 160,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【003】BC26950100",
+      "medname": "可拿糖100mg",
+      "spec": "28顆/盒",
+      "price": 660,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【004】BC23177100",
       "medname": "希樂葆200mg",
       "spec": "28顆/盒",
       "price": 105,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC23711100",
-      "medname": "可迅4mg",
-      "spec": "28錠/盒",
-      "price": 185,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23162100",
-      "medname": "必康平錠40mg",
-      "spec": "30顆/盒",
-      "price": 150,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23161100",
-      "medname": "必康平80mg",
-      "spec": "30顆/盒",
-      "price": 218,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25446100",
-      "medname": "倍必康平80/5mg",
-      "spec": "28顆/盒",
-      "price": 190,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC27440100",
-      "medname": "泰迷平80mg",
-      "spec": "30顆/盒",
+      "nhicode": "【005】BC171251G0",
+      "medname": "康肯5mg",
+      "spec": "100顆/盒",
       "price": 195,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BA24469100",
-      "medname": "貝樂克0.5mg",
-      "spec": "30顆/盒",
-      "price": 2300,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23293100",
-      "medname": "利壓10mg",
-      "spec": "28顆/盒",
-      "price": 117,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23398100",
-      "medname": "欣流咀嚼錠4mg",
-      "spec": "28顆/盒",
-      "price": 210,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25419100",
-      "medname": "力安穩5/160/12.5mg",
-      "spec": "28顆/盒",
-      "price": 118,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25350100",
-      "medname": "力清之2mg",
-      "spec": "28顆/盒",
-      "price": 298,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC22886100",
-      "medname": "立普妥10mg",
-      "spec": "28顆/盒",
-      "price": 162,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC22890100",
-      "medname": "立普妥20mg",
-      "spec": "28顆/盒",
-      "price": 308,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23220100",
-      "medname": "可得安穩160/12.5mg",
-      "spec": "28顆/盒",
-      "price": 125,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23109100",
-      "medname": "可得安穩80/12.5mg",
-      "spec": "28顆/盒",
-      "price": 85,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25072100",
-      "medname": "易安穩5/160mg",
-      "spec": "28顆/盒",
-      "price": 120,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24824100",
-      "medname": "易安穩5/80mg",
-      "spec": "28顆/盒",
-      "price": 120,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC171251G0",
-      "medname": "康肯5mg",
-      "spec": "100顆/盒",
-      "price": 188,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC240391G0",
+      "nhicode": "【006】BC240391G0",
       "medname": "康肯1.25mg",
       "spec": "30顆/盒",
       "price": 57,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC25481100",
-      "medname": "高糖優美50/850mg",
-      "spec": "56顆/盒",
-      "price": 280,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25480100",
-      "medname": "高糖優美50/500mg",
-      "spec": "56顆/盒",
-      "price": 280,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25306100",
-      "medname": "高糖優適50mg",
+      "nhicode": "【007】BC21914100",
+      "medname": "可悅您50mg",
       "spec": "28顆/盒",
-      "price": 140,
+      "price": 90,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BA25200100",
-      "medname": "妥寧10mg",
-      "spec": "30顆/盒",
-      "price": 110,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BA25337100",
-      "medname": "妥寧20mg",
-      "spec": "30顆/盒",
-      "price": 180,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC26672100",
-      "medname": "健安心100mg",
+      "nhicode": "【008】BC26133100",
+      "medname": "艾必克凝5mg",
       "spec": "56顆/盒",
-      "price": 3240,
+      "price": 1470,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC26671100",
-      "medname": "健安心200mg",
-      "spec": "56顆/盒",
-      "price": 3240,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC23374100",
+      "nhicode": "【009】BC23374100",
       "medname": "得安穩160mg",
       "spec": "28顆/盒",
       "price": 95,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC23373100",
-      "medname": "得安穩80mg",
-      "spec": "28顆/盒",
-      "price": 85,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24645100",
+      "nhicode": "【010】BC24645100",
       "medname": "得安穩40mg",
       "spec": "28顆/盒",
-      "price": 88,
+      "price": 93,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC24655100",
-      "medname": "得安穩320mg",
-      "spec": "28粒/盒",
-      "price": 480,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24131100",
-      "medname": "冠脂妥10mg",
+      "nhicode": "【011】BC23373100",
+      "medname": "得安穩80mg",
       "spec": "28顆/盒",
-      "price": 250,
+      "price": 83,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC24597100",
-      "medname": "冠脂妥5mg",
+      "nhicode": "【012】BC23711100",
+      "medname": "可迅持續錠4mg",
+      "spec": "28錠/盒",
+      "price": 185,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【013】BC25072100",
+      "medname": "易安穩5/160mg",
       "spec": "28顆/盒",
-      "price": 160,
+      "price": 120,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC23655100",
-      "medname": "可悅您100mg",
+      "nhicode": "【014】BC24824100",
+      "medname": "易安穩5/80mg",
       "spec": "28顆/盒",
-      "price": 140,
+      "price": 120,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC21914100",
-      "medname": "可悅您50mg",
-      "spec": "28顆/盒",
-      "price": 92,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24643100",
-      "medname": "好悅您100/12.5mg",
-      "spec": "28顆/盒",
-      "price": 140,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC22989100",
-      "medname": "好悅您50/12.5mg",
-      "spec": "28顆/盒",
-      "price": 92,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC27283100",
-      "medname": "優泰脂10/20mg",
-      "spec": "30顆/盒",
-      "price": 450,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24668100",
-      "medname": "佳糖維100mg",
-      "spec": "28顆/盒",
-      "price": 245,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25427100",
-      "medname": "福避痛80mg",
-      "spec": "28顆/盒",
-      "price": 340,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24058100",
+      "nhicode": "【015】BC24058100",
       "medname": "怡妥10mg",
       "spec": "30顆/盒",
       "price": 185,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC248774FK",
-      "medname": "艾敏釋鼻用噴液懸浮劑",
-      "spec": "單支入/盒",
-      "price": 162,
+      "nhicode": "【016】BC25427100",
+      "medname": "福避痛80mg",
+      "spec": "28顆/盒",
+      "price": 343,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC26735443",
-      "medname": "適倍樂舒沛噴吸入劑(綠)",
-      "spec": "30dose/盒",
-      "price": 1460,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25033161",
-      "medname": "適喘樂舒沛噴吸入劑 25mg",
-      "spec": "1支/盒",
-      "price": 1290,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC071521G0",
-      "medname": "庫魯化500mg",
-      "spec": "84顆/盒",
-      "price": 148,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC26476100",
+      "nhicode": "【017】BC26476100",
       "medname": "福適佳10mg",
       "spec": "28顆/盒",
       "price": 660,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC27039100",
-      "medname": "恩美糖12.5/850mg",
-      "spec": "60顆/盒",
-      "price": 870,
+      "nhicode": "【018】BC071521G0",
+      "medname": "庫魯化500mg",
+      "spec": "84顆/盒",
+      "price": 146,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC26406100",
-      "medname": "恩排糖10mg",
-      "spec": "30顆/盒",
-      "price": 780,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC26405100",
-      "medname": "恩排糖25mg",
-      "spec": "30顆/盒",
-      "price": 795,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25792100",
-      "medname": "糖倍平2.5/850mg",
-      "spec": "60顆/盒",
-      "price": 605,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC27073100",
-      "medname": "糖順平25/5mg",
-      "spec": "30顆/盒",
-      "price": 1000,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25537100",
-      "medname": "糖漸平5mg",
-      "spec": "30顆/盒",
-      "price": 380,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC26950100",
-      "medname": "可拿糖100mg",
+      "nhicode": "【019】BC22886100",
+      "medname": "立普妥10mg",
       "spec": "28顆/盒",
-      "price": 675,
+      "price": 162,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC25043100",
-      "medname": "捷糖穩50/500mg",
-      "spec": "56顆/盒",
-      "price": 320,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC25041100",
-      "medname": "捷糖穩50/850mg",
-      "spec": "56顆/盒",
-      "price": 320,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC24250100",
-      "medname": "維妥力10/20mg",
+      "nhicode": "【020】BC22890100",
+      "medname": "立普妥20mg",
       "spec": "28顆/盒",
-      "price": 245,
+      "price": 310,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC27117100",
-      "medname": "釋多糖10/1000mg",
-      "spec": "56顆/盒",
-      "price": 1350,
+      "nhicode": "【021】BC25350100",
+      "medname": "力清之2mg",
+      "spec": "28顆/盒",
+      "price": 300,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC27467100",
+      "nhicode": "【022】BC26700100",
+      "medname": "耐比洛5mg",
+      "spec": "28顆/盒",
+      "price": 90,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【025】BC27467100",
       "medname": "控糖穩5/10mg",
       "spec": "28顆/盒",
       "price": 865,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC26318143",
-      "medname": "潤娃92/22",
-      "spec": "30dose/盒",
-      "price": 765,
+      "nhicode": "【026】AC23239100",
+      "medname": "信東 Amoxicillin500mg",
+      "spec": "1000顆/瓶",
+      "price": 1500,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC27034143",
-      "medname": "潤娃184/22",
-      "spec": "30dose/盒",
-      "price": 1170,
+      "nhicode": "【027】BC25537100",
+      "medname": "糖漸平5mg",
+      "spec": "30顆/盒",
+      "price": 410,
       "stock": "供貨中"
     },
     {
-      "nhicode": "AC058131G0",
+      "nhicode": "【028】BC21277429",
+      "medname": "維蒂斯眼用凝膠",
+      "spec": "10支/盒",
+      "price": 91,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【029】BC23293100",
+      "medname": "利壓10mg",
+      "spec": "28顆/盒",
+      "price": 114,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【030】BC26315143",
+      "medname": "安肺樂 易利達乾粉吸入劑",
+      "spec": "單支/盒",
+      "price": 1165,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【031】BC26735443",
+      "medname": "適倍樂 舒沛噴吸入劑(綠)",
+      "spec": "單支/盒",
+      "price": 1485,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【032】BC25792100",
+      "medname": "糖倍平2.5/850mg",
+      "spec": "60顆/盒",
+      "price": 585,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【033】BC27039100",
+      "medname": "恩美糖12.5/850mg",
+      "spec": "60顆/盒",
+      "price": 875,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【034】AC58639100",
+      "medname": "平脂4mg",
+      "spec": "560顆/盒",
+      "price": 6880,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【035】BC27440100",
+      "medname": "泰迷平80mg",
+      "spec": "\"\t30顆/盒\"",
+      "price": 190,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【036】BA24469100",
+      "medname": "貝樂克0.5mg",
+      "spec": "30顆/盒",
+      "price": 2320,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【037】AC19982100",
+      "medname": "健喬 Amoxicillin500mg",
+      "spec": "\"\t1000顆/瓶\"",
+      "price": 1695,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【038】AC43572414",
+      "medname": "舒德林吸入液2mg/ml",
+      "spec": "100瓶",
+      "price": 950,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【039】BC22782100",
+      "medname": "百抑潰20mg",
+      "spec": "14顆/盒",
+      "price": 86,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【041】AC058131G0",
       "medname": "舒肉筋新",
       "spec": "1000顆/盒",
-      "price": 900,
+      "price": 985,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC22782100",
+      "nhicode": "【042】BC22782100",
       "medname": "百抑潰20mg",
       "spec": "140顆/盒",
-      "price": 820,
+      "price": 835,
       "stock": "供貨中"
     },
     {
-      "nhicode": "AB47629100",
-      "medname": "替你坦舒0.2mg",
-      "spec": "140顆/盒",
-      "price": 570,
+      "nhicode": "【043】AC55939100",
+      "medname": "拾憶10mg",
+      "spec": "28顆/盒",
+      "price": 125,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC23556100",
+      "nhicode": "【045】BC27073100",
+      "medname": "糖順平25/5mg",
+      "spec": "30顆/盒",
+      "price": 1015,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【046】BC27283100",
+      "medname": "優泰脂10/20mg",
+      "spec": "30顆/盒",
+      "price": 455,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【047】BC23220100",
+      "medname": "可得安穩160/12.5mg",
+      "spec": "28顆/盒",
+      "price": 125,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【048】BC23109100",
+      "medname": "可得安穩80/12.5mg",
+      "spec": "28顆/盒",
+      "price": 83,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【049】AC55051100",
+      "medname": "美贊200mg",
+      "spec": "30顆/盒",
+      "price": 290,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【050】BC23655100",
+      "medname": "可悅您100mg",
+      "spec": "28顆/盒",
+      "price": 140,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【051】BC24655100",
+      "medname": "得安穩320mg",
+      "spec": "28顆/盒",
+      "price": 480,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【052】BC26672100",
+      "medname": "健安心100mg",
+      "spec": "56顆/盒",
+      "price": 3255,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【053】BC26671100",
+      "medname": "健安心200mg",
+      "spec": "56顆/盒",
+      "price": 3255,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【054】BC25419100",
+      "medname": "力安穩5/160/12.5mg",
+      "spec": "28顆/盒",
+      "price": 115,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【055】BC25480100",
+      "medname": "高糖優美50/500mg",
+      "spec": "56顆/盒",
+      "price": 280,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【056】AC332241G0",
+      "medname": "迪心贊30mg",
+      "spec": "100顆/盒",
+      "price": 145,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【057】BC25306100",
+      "medname": "高糖優適50mg",
+      "spec": "28顆/盒",
+      "price": 140,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【058】BC24643100",
+      "medname": "好悅您100/12.5mg",
+      "spec": "28顆/盒",
+      "price": 140,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【059】BC22989100",
+      "medname": "好悅您50/12.5mg",
+      "spec": "28顆/盒",
+      "price": 95,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【060】BC25043100",
+      "medname": "捷糖穩50/500mg",
+      "spec": "56顆/盒",
+      "price": 280,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【061】BC25041100",
+      "medname": "捷糖穩50/850mg",
+      "spec": "56顆/盒",
+      "price": 345,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【062】BC24668100",
+      "medname": "佳糖維100mg",
+      "spec": "28顆/盒",
+      "price": 270,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【063】AC57763100",
+      "medname": "蒙地卡4mg",
+      "spec": "28顆/盒",
+      "price": 115,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【064】AC56785100",
+      "medname": "蒙地卡5mg",
+      "spec": "28顆/盒",
+      "price": 115,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【065】AC40090100",
+      "medname": "敵疱治200mg",
+      "spec": "25顆/瓶",
+      "price": 80,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【067】BC27117100",
+      "medname": "釋多糖10/1000mg",
+      "spec": "56顆/盒",
+      "price": 1380,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【068】AC39315100",
+      "medname": "敵疱治400mg",
+      "spec": "100顆/瓶",
+      "price": 395,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【069】BC24250100",
+      "medname": "維妥力10/20mg",
+      "spec": "28顆/盒",
+      "price": 260,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【075】BC23556100",
       "medname": "益脂可80mg",
       "spec": "28顆/盒",
       "price": 210,
       "stock": "供貨中"
     },
     {
-      "nhicode": "AC103581G0",
+      "nhicode": "【077】AC49372100",
+      "medname": "圓心60mg",
+      "spec": "30顆/瓶",
+      "price": 75,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【078】AC49226100",
+      "medname": "善脂瑩20 mg",
+      "spec": "30顆/盒",
+      "price": 85,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【079】BC26406100",
+      "medname": "恩排糖10mg",
+      "spec": "30顆/盒",
+      "price": 775,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【080】BC26405100",
+      "medname": "恩排糖25mg",
+      "spec": "30顆/盒",
+      "price": 830,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【081】BC23162100",
+      "medname": "必康平40mg",
+      "spec": "30顆/盒",
+      "price": 150,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【082】BC23161100",
+      "medname": "必康平80mg",
+      "spec": "30顆/盒",
+      "price": 217,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【083】BC25446100",
+      "medname": "倍必康平80/5mg",
+      "spec": "28顆/盒",
+      "price": 200,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【084】BC25033161",
+      "medname": "適喘樂 舒沛噴吸入劑25mg",
+      "spec": "單支/盒",
+      "price": 1295,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【085】BC23398100",
+      "medname": "欣流4mg",
+      "spec": "28顆/盒",
+      "price": 232,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【087】BC24597100",
+      "medname": "冠脂妥5mg",
+      "spec": "28顆/盒",
+      "price": 170,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【088】BC27034143",
+      "medname": "潤娃184/22 MCG",
+      "spec": "單支/盒",
+      "price": 1170,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【089】BC26318143",
+      "medname": "潤娃92/22 MCG",
+      "spec": "單支/盒",
+      "price": 765,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【090】AC103581G0",
       "medname": "合必爽30mg",
       "spec": "500顆/盒",
-      "price": 970,
+      "price": 985,
       "stock": "供貨中"
     },
     {
-      "nhicode": "AA57372100",
-      "medname": "必抑脂2mg",
+      "nhicode": "【092】AC47771100",
+      "medname": "列優治10mg",
+      "spec": "30顆/盒",
+      "price": 105,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【093】AC44998100",
+      "medname": "脂落20mg",
+      "spec": "30顆/盒",
+      "price": 60,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【094】AC58817100",
+      "medname": "益利舒0.4mg",
+      "spec": "30顆/盒",
+      "price": 195,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【095】AA47813100",
+      "medname": "敏喘克10mg",
       "spec": "28顆/盒",
-      "price": 265,
+      "price": 125,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC24403100",
+      "nhicode": "【096】AC59192100",
+      "medname": "庇脂清4mg",
+      "spec": "28粒/盒",
+      "price": 285,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【101】BC24403100",
       "medname": "活路利淨D持續釋放口溶錠",
       "spec": "140顆/盒",
-      "price": 560,
+      "price": 575,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC25413100",
+      "nhicode": "【102】BC25413100",
       "medname": "活路利淨OCAS持續錠0.4mg",
       "spec": "30顆/盒",
       "price": 320,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC21571100",
-      "medname": "脈優5mg",
+      "nhicode": "【105】BA25200100",
+      "medname": "妥寧10mg",
+      "spec": "30顆/盒",
+      "price": 120,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【106】BA25337100",
+      "medname": "妥寧20mg",
+      "spec": "30顆/盒",
+      "price": 235,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【107】BC24131100",
+      "medname": "冠脂妥10mg",
       "spec": "28顆/盒",
+      "price": 250,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【108】BC25481100",
+      "medname": "高糖優美50/850mg",
+      "spec": "56顆/盒",
+      "price": 280,
+      "stock": "供貨中"
+    },
+    {
+      "nhicode": "【109】BC21571100",
+      "medname": "脈優5mg",
+      "spec": "\"28顆/盒\t\"",
       "price": 74,
       "stock": "供貨中"
     },
     {
-      "nhicode": "AC476561G0",
+      "nhicode": "【110】AC476561G0",
       "medname": "摩舒胃清5mg",
       "spec": "840顆/盒",
-      "price": 1460,
+      "price": 1480,
       "stock": "供貨中"
     },
     {
-      "nhicode": "BC26298100",
+      "nhicode": "【113】BC26298100",
       "medname": "耐釋糖25mg",
       "spec": "28顆/盒",
-      "price": 435,
+      "price": 460,
       "stock": "供貨中"
     },
     {
-      "nhicode": "AC24132100",
-      "medname": "Amoxicillin 500mg",
+      "nhicode": "【116】AC24132100",
+      "medname": "中化 Amoxicillin500mg",
       "spec": "1000顆/瓶",
       "price": 1500,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC26133100",
-      "medname": "艾必克凝5毫克",
-      "spec": "56顆/盒",
-      "price": 1460,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "BC26700100",
-      "medname": "耐比洛5mg",
-      "spec": "28顆/盒",
-      "price": 90,
       "stock": "供貨中"
     }
   ],
@@ -574,7 +721,7 @@
     {
       "nhicode": "BC250921FL",
       "medname": "肺舒坦定量吸入劑100/6mcg/dose",
-      "spec": "單支入/盒",
+      "spec": "單支/盒",
       "price": 610,
       "stock": "供貨中"
     },
