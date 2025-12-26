@@ -169,13 +169,6 @@
       "stock": "供貨中"
     },
     {
-      "nhicode": "【026】AC23239100",
-      "medname": "信東 Amoxicillin500mg",
-      "spec": "1000顆/瓶",
-      "price": 1500,
-      "stock": "供貨中"
-    },
-    {
       "nhicode": "【027】BC25537100",
       "medname": "糖漸平5mg",
       "spec": "30顆/盒",
@@ -243,13 +236,6 @@
       "medname": "貝樂克0.5mg",
       "spec": "30顆/盒",
       "price": 2320,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "【037】AC19982100",
-      "medname": "健喬 Amoxicillin500mg",
-      "spec": "1000顆/瓶",
-      "price": 1695,
       "stock": "供貨中"
     },
     {
@@ -442,13 +428,6 @@
       "stock": "供貨中"
     },
     {
-      "nhicode": "【068】AC39315100",
-      "medname": "敵疱治400mg",
-      "spec": "100顆/瓶",
-      "price": 395,
-      "stock": "供貨中"
-    },
-    {
       "nhicode": "【069】BC24250100",
       "medname": "維妥力10/20mg",
       "spec": "28顆/盒",
@@ -568,13 +547,6 @@
       "stock": "供貨中"
     },
     {
-      "nhicode": "【094】AC58817100",
-      "medname": "益利舒0.4mg",
-      "spec": "30顆/盒",
-      "price": 195,
-      "stock": "供貨中"
-    },
-    {
       "nhicode": "【095】AA47813100",
       "medname": "敏喘克10mg",
       "spec": "28顆/盒",
@@ -649,13 +621,6 @@
       "medname": "耐釋糖25mg",
       "spec": "28顆/盒",
       "price": 460,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "【116】AC24132100",
-      "medname": "中化 Amoxicillin500mg",
-      "spec": "1000顆/瓶",
-      "price": 1500,
       "stock": "供貨中"
     }
   ],
