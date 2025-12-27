@@ -832,6 +832,13 @@
     },
     {
       "nhicode": "無健保給付",
+      "medname": "胰妥讚4mg",
+      "spec": "一盒一支",
+      "price": 3550,
+      "stock": "缺貨"
+    },
+    {
+      "nhicode": "無健保給付",
       "medname": "週纖達1.7mg",
       "spec": "一盒一支",
       "price": 9000,
