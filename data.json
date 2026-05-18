@@ -22,13 +22,6 @@
       "stock": "供貨中"
     },
     {
-      "nhicode": "【005】BC171251G0",
-      "medname": "康肯5mg",
-      "spec": "100顆/盒",
-      "price": 195,
-      "stock": "供貨中"
-    },
-    {
       "nhicode": "【006】BC240391G0",
       "medname": "康肯1.25mg",
       "spec": "30顆/盒",
@@ -82,13 +75,6 @@
       "medname": "易安穩5/80mg",
       "spec": "28顆/盒",
       "price": 120,
-      "stock": "供貨中"
-    },
-    {
-      "nhicode": "【015】BC24058100",
-      "medname": "怡妥10mg",
-      "spec": "30顆/盒",
-      "price": 185,
       "stock": "供貨中"
     },
     {
@@ -514,20 +500,6 @@
       "spec": "2支/盒",
       "price": 1770,
       "stock": "供貨中/隔天送達"
-    },
-    {
-      "nhicode": "無健保給付",
-      "medname": "康纖芙",
-      "spec": "120顆/盒",
-      "price": 3700,
-      "stock": "供貨中/隔天送達"
-    },
-    {
-      "nhicode": "無健保給付",
-      "medname": "瑞倍適錠7mg",
-      "spec": "30粒/盒",
-      "price": 4300,
-      "stock": "熱門🔥隔天送達"
     },
     {
       "nhicode": "無健保給付",
