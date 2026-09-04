@@ -126,12 +126,13 @@
   <button id="copyBtn" onclick="copyOrder()">複製訂單明細</button>
 
 <script>
-  let data = { products: [], specialProducts: [], coldProducts: [] };
+  let data = { Xproducts: [], products: [], specialProducts: [], coldProducts: [] };
 
   fetch('data.json')
     .then(response => response.json())
     .then(json => {
       data = json;
+      renderTable(data.Xproducts, "productTableBody", "ty");
       renderTable(data.products, "productTableBody", "qty");
       renderTable(data.specialProducts, "specialTableBody", "spqty");
       renderTable(data.coldProducts, "coldTableBody", "cdqty");
@@ -171,8 +172,8 @@
     }
 
     data.Xproducts.forEach((p, i) => {
-      const qty = parseInt(document.getElementById(`qty${i}`).value);
-      if (qty > 0) addLine(p, qty);
+      const qty = parseInt(document.getElementById(`ty${i}`).value);
+      if (ty > 0) addLine(p, ty);
     });
 
     data.products.forEach((p, i) => {
