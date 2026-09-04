@@ -1,5 +1,5 @@
+{
   "Xproducts": [
-   
     {
       "nhicode": "KC00978206",
       "medname": "易週糖1.5mg",
@@ -55,10 +55,9 @@
       "spec": "一盒一支",
       "price": 3650,
       "stock": "熱門🔥隔天送達"
-    },
+    }
   ],
 
-{
   "products": [
     {
       "nhicode": "【002】BC248774FK",
@@ -348,6 +347,7 @@
       "stock": "供貨中"
     }
   ],
+
   "specialProducts": [
     {
       "nhicode": "無健保給付",
@@ -385,6 +385,7 @@
       "stock": "供貨中"
     }
   ],
+
   "coldProducts": [
     {
       "nhicode": "BC250921FL",
