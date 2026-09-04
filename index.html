@@ -126,81 +126,166 @@
   <button id="copyBtn" onclick="copyOrder()">複製訂單明細</button>
 
 <script>
-  let data = { Xproducts: [], products: [], specialProducts: [], coldProducts: [] };
+  let data = {
+    Xproducts: [],
+    products: [],
+    specialProducts: [],
+    coldProducts: []
+  };
 
   fetch('data.json')
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`data.json 讀取失敗：${response.status}`);
+      }
+      return response.json();
+    })
     .then(json => {
       data = json;
-      renderTable(data.Xproducts, "productTableBody", "ty");
-      renderTable(data.products, "productTableBody", "qty");
-      renderTable(data.specialProducts, "specialTableBody", "spqty");
-      renderTable(data.coldProducts, "coldTableBody", "cdqty");
+
+      renderTable(data.Xproducts || [], "XproductTableBody", "ty");
+      renderTable(data.products || [], "productTableBody", "qty");
+      renderTable(data.specialProducts || [], "specialTableBody", "spqty");
+      renderTable(data.coldProducts || [], "coldTableBody", "cdqty");
     })
     .catch(err => {
       console.error("讀取資料錯誤：", err);
+      document.getElementById("orderSummary").textContent =
+        "商品資料讀取失敗，請確認 data.json 是否存在以及 JSON 格式是否正確。";
     });
+
 
   function renderTable(list, tableId, prefix) {
     const tableBody = document.getElementById(tableId);
+
+    if (!tableBody) {
+      console.error(`找不到表格：${tableId}`);
+      return;
+    }
+
     tableBody.innerHTML = '';
+
     list.forEach((p, i) => {
       let stockClass = 'in-stock';
-      if (p.stock.includes('缺貨')) stockClass = 'out-stock';
-      else if (p.stock.includes('熱門')) stockClass = 'hot-stock';
+
+      if ((p.stock || '').includes('缺貨')) {
+        stockClass = 'out-stock';
+      } else if ((p.stock || '').includes('熱門')) {
+        stockClass = 'hot-stock';
+      }
+
       const row = document.createElement('tr');
+
       row.innerHTML = `
-        <td>${p.nhicode}</td>
-        <td class="name-col">${p.medname}</td>
-        <td>${p.spec}</td>
-        <td class="price-col">${p.price}</td>
-        <td class="${stockClass}">${p.stock}</td>
-        <td><input type="number" id="${prefix}${i}" min="0" value="0"></td>
+        <td>${p.nhicode || ''}</td>
+        <td class="name-col">${p.medname || ''}</td>
+        <td>${p.spec || ''}</td>
+        <td class="price-col">${p.price || 0}</td>
+        <td class="${stockClass}">${p.stock || ''}</td>
+        <td>
+          <input
+            type="number"
+            id="${prefix}${i}"
+            min="0"
+            value="0"
+          >
+        </td>
       `;
+
       tableBody.appendChild(row);
     });
   }
+
 
   function placeOrder() {
     let summary = "🧾 訂單明細\n";
     let total = 0;
 
     function addLine(p, qty) {
-      const subtotal = qty * p.price;
+      const subtotal = qty * Number(p.price || 0);
+
       total += subtotal;
-      summary += `${p.medname} x${qty}\n單價：${p.price}\n\n`;
+
+      summary +=
+        `${p.medname} x${qty}\n` +
+        `單價：${p.price}\n\n`;
     }
 
-    data.Xproducts.forEach((p, i) => {
-      const qty = parseInt(document.getElementById(`ty${i}`).value);
-      if (ty > 0) addLine(p, ty);
+
+    // 熱門商品
+    (data.Xproducts || []).forEach((p, i) => {
+      const input = document.getElementById(`ty${i}`);
+      const qty = parseInt(input?.value || 0, 10) || 0;
+
+      if (qty > 0) {
+        addLine(p, qty);
+      }
     });
 
-    data.products.forEach((p, i) => {
-      const qty = parseInt(document.getElementById(`qty${i}`).value);
-      if (qty > 0) addLine(p, qty);
+
+    // 一般藥品
+    (data.products || []).forEach((p, i) => {
+      const input = document.getElementById(`qty${i}`);
+      const qty = parseInt(input?.value || 0, 10) || 0;
+
+      if (qty > 0) {
+        addLine(p, qty);
+      }
     });
 
-    data.specialProducts.forEach((p, i) => {
-      const qty = parseInt(document.getElementById(`spqty${i}`).value);
-      if (qty > 0) addLine(p, qty);
+
+    // 壯陽 / 避孕 / 無健保藥物
+    (data.specialProducts || []).forEach((p, i) => {
+      const input = document.getElementById(`spqty${i}`);
+      const qty = parseInt(input?.value || 0, 10) || 0;
+
+      if (qty > 0) {
+        addLine(p, qty);
+      }
     });
 
-    data.coldProducts.forEach((p, i) => {
-      const qty = parseInt(document.getElementById(`cdqty${i}`).value);
-      if (qty > 0) addLine(p, qty);
+
+    // 冷品
+    (data.coldProducts || []).forEach((p, i) => {
+      const input = document.getElementById(`cdqty${i}`);
+      const qty = parseInt(input?.value || 0, 10) || 0;
+
+      if (qty > 0) {
+        addLine(p, qty);
+      }
     });
 
-    summary += "----------------------\n總金額：" + total;
-    document.getElementById("orderSummary").textContent = total > 0 ? summary : "請選擇商品數量！";
-    document.getElementById("copyBtn").style.display = total > 0 ? 'inline-block' : 'none';
+
+    summary +=
+      "----------------------\n" +
+      "總金額：" + total.toLocaleString();
+
+
+    const orderSummary = document.getElementById("orderSummary");
+    const copyBtn = document.getElementById("copyBtn");
+
+    if (total > 0) {
+      orderSummary.textContent = summary;
+      copyBtn.style.display = 'inline-block';
+    } else {
+      orderSummary.textContent = "請選擇商品數量！";
+      copyBtn.style.display = 'none';
+    }
   }
 
+
   function copyOrder() {
-    const summaryText = document.getElementById("orderSummary").textContent;
-    navigator.clipboard.writeText(summaryText).then(() => {
-      alert('訂單明細已複製到剪貼簿');
-    });
+    const summaryText =
+      document.getElementById("orderSummary").textContent;
+
+    navigator.clipboard.writeText(summaryText)
+      .then(() => {
+        alert('訂單明細已複製到剪貼簿');
+      })
+      .catch(err => {
+        console.error("複製失敗：", err);
+        alert("複製失敗，請手動複製訂單明細");
+      });
   }
 </script>
 
